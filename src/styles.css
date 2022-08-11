@@ -1,0 +1,102 @@
+body {
+  background: #141414;
+}
+
+img {
+  margin-left: 5px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 13px;
+  width: 187px;
+  height: 49px;
+  border-radius: 0px 24.5px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-family: montserrat-alternates, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.button1 {
+  background: #00da9c;
+  color: #1d293c;
+}
+
+.button2 {
+  border: 2px solid #004c3b;
+  color: #004c3b;
+}
+
+.button3 {
+  background: #d7fa00;
+  color: #1d293c;
+}
+
+.button4 {
+  background: #00b0fc;
+  color: #1d293c;
+}
+
+.button5 {
+  background: #004c3b;
+  color: #ffbf84;
+}
+
+@media (min-width: 1920px) {
+  img {
+    width: 16.17px;
+    height: 18.1px;
+  }
+  .button {
+    width: 187px;
+    height: 49px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+  img {
+    width: 16.17px;
+    height: 18.1px;
+  }
+  .button {
+    width: 187px;
+    height: 49px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  img {
+    width: 15.14px;
+    height: 18.1px;
+  }
+  .button {
+    width: 175px;
+    height: 49px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  img {
+    width: 11.14px;
+    height: 13.94px;
+  }
+  .button {
+    width: 150px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
